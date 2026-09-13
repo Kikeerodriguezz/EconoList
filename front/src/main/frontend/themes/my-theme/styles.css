@@ -1,0 +1,302 @@
+/*
+   CSS styling examples for the Vaadin app.
+
+   Visit https://vaadin.com/docs/styling/application-theme/ for more information.
+*/
+
+/* Example: CSS class name to center align the content . */
+.centered-content {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+/* Example: the style is applied only to the textfields which have the `bordered` class name. */
+vaadin-text-field.bordered::part(input-field) {
+  box-shadow: inset 0 0 0 1px var(--lumo-contrast-30pct, rgba(0, 0, 0, 0.3));
+  background-color: var(--lumo-base-color, #ffffff);
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/fondoPagPrincipal.png');
+  background-repeat: repeat;   /* ✅ repetir */
+  background-size: auto;        /* ✅ auto (bien) */
+  background-position: top center;
+  background-attachment: scroll; /* scroll (bien) */
+}
+
+
+
+/* Barra de navegación */
+.navbar {
+  background-color: white !important;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* para que se vea flotante */
+  z-index: 10;
+  position: relative;
+}
+
+.navbar-logo {
+  height: 80px; /* Aumentar tamaño del logo */
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.register-button {
+  background-color: #83C28F;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Buscador */
+.search-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.search-slogan {
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.search-field {
+  width: 60%;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.search-button {
+  background-color: #28a745;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Sección de categorías */
+.categories-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.categories-title {
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  width: 180px;
+}
+
+.category-card:hover {
+  transform: scale(1.07);
+}
+
+.category-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.category-card p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Sección de Ofertas */
+.offers-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.offers-title {
+  color: #dc3545;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.offer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  width: 180px;
+}
+
+.offer-card:hover {
+  transform: scale(1.07);
+}
+
+.offer-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.offer-card p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Botones generales */
+vaadin-button {
+  background-color: #83C28F;
+  color: white;
+  font-weight: bold;
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* Estilos para la página de registro */
+/* shared-styles.css */
+.custom-textfield {
+  width: 300px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button {
+  background-color: #1E2A47;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #25354C;
+}
+
+.primary-button:active {
+  background-color: #17233A;
+}
+
+
+/* Contenedor central */
+.centered-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Asegura que el navbar se vea */
+.navbar {
+  z-index: 10;
+  position: relative;
+}
+
+.slogan-text {
+  font-family: 'Lobster', cursive; /* o cualquier fuente amigable que prefieras */
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff; /* o el color que mejor contraste con el fondo */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* un poco de sombra para mejor legibilidad */
+  margin-bottom: 20px;
+  margin-top: -150px; /* empuja el texto hacia arriba */
+}
+
+.search-wrapper {
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.styled-search-field::part(input-field) {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #83C28F;
+}
+
+.styled-search-field::part(input-field) {
+  color: #83C28F;
+}
+
+.styled-search-field::part(input-field)::slotted(input::placeholder) {
+  color: #83C28F;
+  opacity: 1;
+}
+
+.styled-search-button {
+  background: none;
+  border: none;
+  color: #83C28F;
+  cursor: pointer;
+  padding: 0;
+}
+
+.styled-search-button:hover {
+  opacity: 0.8;
+}
+
+/* Cambiar color del placeholder del buscador */
+.search-field::placeholder {
+  color: #83C28F; /* verde más oscuro, cámbialo por el que prefieras */
+  opacity: 1; /* Asegura que se vea el color */
+}
+
+

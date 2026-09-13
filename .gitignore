@@ -1,0 +1,18 @@
+# Build and IDE files
+**/target/
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Vaadin generated files
+**/node_modules/
+**/src/main/frontend/generated/
+**/webpack.generated.js
+**/vite.generated.ts
+**/pnpmfile.js
+
+# Local configuration
+.env
+
+# Operating-system files
+.DS_Store

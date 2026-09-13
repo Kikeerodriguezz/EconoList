@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="EconoList" company="Grupo02-EconoList" webLink="" view-date="2025-03-17" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3311" locale="es_ES">
+    <description><![CDATA[Proyecto para solucionar la opctimización de la lista de la compra a través de una aplicación de escritorio]]></description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[29,4,6,7,3,5,1,32,0]]></timeline>
+        <option id="color.recent"><![CDATA[#ffcc66 #999900 #999999 #ffff00 #339900 #ff0033 #009999 #cc00cc #ffcccc #9933ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="87" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="1" tue="0" wed="1" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="30bbd2c568e14a51a7befb0733fa817c" name="Definición de equipo y proyecto" color="#0033ff" meeting="false" start="2025-01-23" duration="8" complete="100" expand="false">
+            <notes><![CDATA[Definición del equipo y las herramientas de trabajo.
+Definición del alcance y objetivos del proyecto (revisión crítica del anterior)]]></notes>
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <task id="15" uid="520dc0fafb224acbbcdd9f4d542bb108" name="Lluvia de ideas de proyectos" color="#0033ff" meeting="false" start="2025-01-23" duration="5" complete="100" thirdDate="2025-01-23" thirdDate-constraint="1" expand="true"/>
+            <task id="25" uid="d4fb2a2a48214191bd122cbfbb18e830" name="Elección del proyecto a desarrollar" color="#0033ff" meeting="false" start="2025-01-30" duration="2" complete="100" expand="true"/>
+            <task id="8" uid="43e8276fad6f40f8bdd5ceb7fc374b36" name="Entrega definición de equipo" color="#0033ff" meeting="true" start="2025-02-02" duration="0" complete="100" expand="true"/>
+        </task>
+        <task id="28" uid="c227e3cb86774181ae234af7f015b644" name="Creación del Gantt" color="#9933ff" meeting="false" start="2025-01-30" duration="13" complete="100" expand="true"/>
+        <task id="26" uid="ae04894a41704848984bfe75eac1f001" name="Estudio de soluciones existentes" color="#ffcccc" meeting="false" start="2025-01-30" duration="13" complete="100" expand="true"/>
+        <task id="1" uid="78cfce1a39e547f19292b35110d0936d" name="Historias de usuario y plan de trabajo" color="#cc00cc" meeting="false" start="2025-02-04" duration="9" complete="100" expand="false">
+            <notes><![CDATA[Definición de las historias de usuario.
+Definición de las historias de usuario.
+Definición del plan de trabajo SCRUM, que debe estar organizado en 4 sprints.]]></notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <task id="16" uid="262b36f2567a47eaaa1b4904f7747193" name="Planificación y creación del backlog con Azure" color="#cc00cc" meeting="false" start="2025-02-04" duration="8" complete="100" expand="true"/>
+            <task id="27" uid="d9bd00ed6ec34e41a89a976abab1c1ab" name="Pedir paralelización a Microsoft" color="#cc00cc" meeting="false" start="2025-02-04" duration="3" complete="100" expand="true"/>
+            <task id="29" uid="b8e2bc7d2c2f4e468da0dccb5f8de6d5" name="Organizar cómo ejecutar Scrum" color="#cc00cc" meeting="false" start="2025-02-07" duration="5" complete="100" expand="true"/>
+            <task id="30" uid="0c75157838fe4de39731b58f24706c61" name="Investigación previa" color="#cc00cc" meeting="false" start="2025-02-04" duration="9" complete="100" expand="true"/>
+            <task id="31" uid="d70471eaeb484216b04151c3eae855f2" name="Viabilidad técnica" color="#cc00cc" meeting="false" start="2025-02-08" duration="4" complete="100" expand="true"/>
+            <task id="32" uid="bf4fb723e0494fd2ac3df49955c0dabb" name="Objetivos" color="#cc00cc" meeting="false" start="2025-02-11" duration="3" complete="100" expand="true"/>
+            <task id="33" uid="db990d291d264532be982afdccb6247b" name="Plan de trabajo" color="#cc00cc" meeting="false" start="2025-02-04" duration="9" complete="100" expand="true"/>
+            <task id="34" uid="3ddffc1c7258483eb3e9e9995fc6fa96" name="Modelar la memoria" color="#cc00cc" meeting="false" start="2025-02-15" duration="1" complete="100" expand="true"/>
+            <task id="9" uid="bff617784634474a9372483df381112b" name="Entrega plan de trabajo" color="#cc00cc" meeting="true" start="2025-02-16" duration="0" complete="50" expand="true"/>
+        </task>
+        <task id="3" uid="c71129e33bc542339ecac774a5032fb7" name="Sprint 1" color="#009999" meeting="false" start="2025-02-16" duration="10" complete="100" expand="false">
+            <notes><![CDATA[Diseño e implementación de las historias incluidas en el Sprint 1]]></notes>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <task id="36" uid="1bebf149cee54ef584fc5f301343b3d5" name="F1. Diseño e implementación de la BBDD" color="#009999" meeting="false" start="2025-02-16" duration="5" complete="100" expand="true">
+                <task id="37" uid="5f3c95241e064cebbae5af6dad974e9b" name="HU 1.1. Configuración del repositorio" color="#009999" meeting="false" start="2025-02-16" duration="5" complete="100" expand="true">
+                    <task id="41" uid="0ce64663556d43c1bb3f03f28e760846" name="ACT 1.1.1. Crear repositorio en Github" color="#009999" meeting="false" start="2025-02-16" duration="3" complete="100" expand="true"/>
+                    <task id="42" uid="3b46944f6e3241f880b396b143368fee" name="ACT 1.1.2. Configurar la integración con Azure DevOps" color="#009999" meeting="false" start="2025-02-20" duration="2" complete="100" expand="true"/>
+                    <task id="43" uid="112f3190387d4353a0d136474374a5d7" name="ACT 1.1.3. Establecer las ramas principales (master y develop)" color="#009999" meeting="false" start="2025-02-20" duration="2" complete="100" expand="true"/>
+                    <task id="44" uid="010a50cf1e08417fbeb92da33cfe0198" name="ACT 1.1.4. Documentar las reglas que se van a seguir con los commits y las pull request" color="#009999" meeting="false" start="2025-02-20" duration="3" complete="100" expand="true"/>
+                </task>
+                <task id="38" uid="aedeec9e2f0b42e28b75e619d184542f" name="HU 1.2. Configuración del entorno de desarrollo" color="#009999" meeting="false" start="2025-02-18" duration="4" complete="100" expand="true">
+                    <task id="45" uid="25384bfcffb746c08900e3df155ce00a" name="ACT 1.2.1. Configurar Spring Boot con Maven y dependencias básicas" color="#009999" meeting="false" start="2025-02-18" duration="2" complete="100" expand="true"/>
+                    <task id="46" uid="988061a66ef6419193dc175455c80749" name="ACT 1.2.2. Integrar Vaadin con el frontend" color="#009999" meeting="false" start="2025-02-20" duration="3" complete="100" expand="true"/>
+                    <task id="47" uid="20b4cbcbe9b2422bb67a289869feed08" name="ACT 1.2.3. Establecer documentación sobre la configuración del entorno" color="#009999" meeting="false" start="2025-02-18" duration="4" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="35" uid="4ab7aabde326412da1dad5fcf7e198bc" name="F2. Configuración del proyecto en Azure y Github" color="#009999" meeting="false" start="2025-02-21" duration="6" complete="100" expand="true">
+                <task id="39" uid="1374d12d394945a7a3d4e7de271c9c85" name="HU 2.1. Diseño del modelo de la base de datos" color="#009999" meeting="false" start="2025-02-21" duration="5" complete="100" expand="true">
+                    <task id="48" uid="989edfa460124ff3b0494fd860366eb4" name="ACT 2.1.1. Diseñar el diagrama de base de datos" color="#009999" meeting="false" start="2025-02-21" duration="3" complete="100" expand="true"/>
+                    <task id="49" uid="eb3ba9f6e8ff443f80b16c522010667d" name="ACT 2.1.2. Revisar el diseño con el equipo" color="#009999" meeting="false" start="2025-02-22" duration="4" complete="100" expand="true"/>
+                </task>
+                <task id="40" uid="269b6e1a34f64d7b83fbf30d011cc41f" name="HU 2.2. Implementación de la base de datos" color="#009999" meeting="false" start="2025-02-23" duration="4" complete="100" expand="true">
+                    <task id="50" uid="0255eb722f1e4e0f97d6a3a3a1dc02b4" name="ACT 2.2.1. Crear una base de datos en PostgreSQL" color="#009999" meeting="false" start="2025-02-25" duration="2" complete="100" expand="true"/>
+                    <task id="51" uid="b2f3644583d3449fb521613b844044c0" name="ACT 2.2.2. Definir y crear tablas (productos, supermercados, lista de compra)" color="#009999" meeting="false" start="2025-02-27" duration="2" complete="100" expand="true"/>
+                    <task id="52" uid="b02bf501dcec4b8a8dc1367555a78272" name="ACT 2.2.3. Implementar la conexión con Spring Boot" color="#009999" meeting="false" start="2025-02-23" duration="2" complete="100" expand="true"/>
+                    <task id="53" uid="c78b406b3dce4bc6aaffc80b219fd82b" name="ACT 2.2.4. Probar la conexión con datos de prueba" color="#009999" meeting="false" start="2025-02-28" duration="1" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="10" uid="6938a377af544dac933bb1841b6226e2" name="Sprint Retrospective 1" color="#009999" meeting="true" start="2025-03-02" duration="0" complete="100" expand="true"/>
+        </task>
+        <task id="4" uid="c60cf76ad6f14226b073767e99c263f5" name="Sprint 2" color="#ff0033" meeting="false" start="2025-03-04" duration="13" complete="100" expand="false">
+            <notes><![CDATA[Diseño e implementación de las historias incluidas en el Sprint 2]]></notes>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <task id="54" uid="f7df629deee94976ad178aa8a85ba8fd" name="F4. Comparación de precios entre supermercados" color="#ff0033" meeting="false" start="2025-03-04" duration="9" complete="100" expand="true">
+                <task id="19" uid="51d4b719467549b0952a2c3c6b80039a" name="F6. Diseño e implementación del Frontend" color="#339900" meeting="false" start="2025-03-04" duration="6" complete="100" expand="true">
+                    <task id="78" uid="796c33cd4cae4f92b4c8985c2ebe58c2" name="HU 6.1. Pantalla principal y navegación" color="#339900" meeting="false" start="2025-03-04" duration="5" complete="100" expand="false">
+                        <task id="83" uid="f1e00d40912b45ea9f1ef892a85cfa89" name="ACT 6.1.1. Diseñar mockups" color="#339900" meeting="false" start="2025-03-04" duration="2" complete="100" expand="true"/>
+                        <task id="84" uid="7630c79055dd4d9bb81c67f7b5720e60" name="ACT 6.1.2. Implementar funcionalidades de Vaadin" color="#339900" meeting="false" start="2025-03-08" duration="2" complete="100" expand="true"/>
+                    </task>
+                    <task id="80" uid="45ab216309114050b532486d2401b778" name="HU 6.2. Gestión de listas de la compra desde la UI" color="#339900" meeting="false" start="2025-03-09" duration="2" complete="100" expand="false">
+                        <task id="85" uid="3f11b2bd86d941cdbb7958d97fdf54a3" name="ACT 6.2.1. Crear los formularios de gestión de listas" color="#339900" meeting="false" start="2025-03-09" duration="1" complete="100" expand="true"/>
+                        <task id="86" uid="f370cbed3bfd4cf18a78bd1a8e4c8e7a" name="ACT 6.2.2. Conectar la interfaz con la API del backend" color="#339900" meeting="false" start="2025-03-11" duration="1" complete="100" expand="true"/>
+                    </task>
+                </task>
+                <task id="58" uid="1f0f8e755dd0457e9b0237a65622ce1e" name="HU 4.1. Comparación de precios" color="#ff0033" meeting="false" start="2025-03-11" duration="4" complete="100" expand="true">
+                    <task id="67" uid="6851f815199e4f89ad60330dd5f3fdee" name="ACT 4.1.1. Crear endpoint para obtener precios de productos en distintos supermercados" color="#ff0033" meeting="false" start="2025-03-11" duration="2" complete="100" expand="true"/>
+                    <task id="68" uid="2170b09df07544a487434598ec0a9b05" name="ACT 4.1.2. Implementar una lógica para ordenar y filtrar los datos" color="#ff0033" meeting="false" start="2025-03-11" duration="4" complete="100" expand="true"/>
+                    <task id="69" uid="ae70bb5a1b5d4677b233dc51bb338578" name="ACT 4.1.3. Validar la funcionalidad con datos de prueba" color="#ff0033" meeting="false" start="2025-03-13" duration="1" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="70" uid="3f038b9b23e64536a4665361fb7ebb40" name="F5. Algoritmo de optimización de costes" color="#ff0033" meeting="false" start="2025-03-13" duration="3" complete="100" expand="true">
+                <task id="71" uid="5ccc6d4fce6e4768a9dbaecb15688c73" name="HU 5.1 Optimización automática de la lista de la compra" color="#ff0033" meeting="false" start="2025-03-13" duration="3" complete="100" expand="true">
+                    <task id="72" uid="c482638cca18439ea634cbadcd82c1c1" name="ACT 5.1.1. Implementar lógica de cálculo de precio total" color="#ff0033" meeting="false" start="2025-03-13" duration="1" complete="100" expand="true"/>
+                    <task id="73" uid="958b7d3e7af044cfb0f99bc580786350" name="ACT 5.1.2. Desarrollar endpoint para devolver la opción óptima" color="#ff0033" meeting="false" start="2025-03-14" duration="1" complete="100" expand="true"/>
+                    <task id="74" uid="ff9dc20bd53d47da88cd8272222fe7cf" name="ACT 5.1.3. Validar el algorimo con datos simulados" color="#ff0033" meeting="false" start="2025-03-15" duration="1" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="11" uid="8d0a0ee2a05e482baa3960ed959ab96b" name="Sprint Retrospective 2" color="#ff0033" meeting="true" start="2025-03-18" duration="0" complete="100" expand="true"/>
+        </task>
+        <task id="5" uid="67fd5cc445394e4ca931a3f48f69f4c4" name="Sprint 3" color="#339900" meeting="false" start="2025-03-22" duration="6" complete="100" expand="false">
+            <notes><![CDATA[Diseño e implementación de las historias incluidas en el Sprint 3]]></notes>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <task id="18" uid="8276fef25ecf4559b451c2ff47e97acd" name="F3. Implementación de la API inicial" color="#ff0033" meeting="false" start="2025-03-22" duration="5" complete="100" expand="true">
+                <task id="55" uid="5e4dc07fbeda4dd9b3ec6096c90e1cf0" name="HU 3.1. CRUD de la lista de la compra" color="#ff0033" meeting="false" start="2025-03-22" duration="5" complete="100" expand="true">
+                    <task id="59" uid="cd436b7d47964d77b69a4404f8080fc3" name="ACT 3.1.1. Crear endpoint para agregar productos a una lista de la compra" color="#ff0033" meeting="false" start="2025-03-22" duration="1" complete="100" expand="true"/>
+                    <task id="60" uid="dfcda4b1997d460e8f3ba1a0cd2f2dd7" name="ACT 3.1.2. Crear endpoint para eliminar productos de una lista" color="#ff0033" meeting="false" start="2025-03-22" duration="1" complete="100" expand="true"/>
+                    <task id="61" uid="291fa346ff6e49cb92984c9781a58bfa" name="ACT 3.1.3. Probar la API con ThunderClient (VS)" color="#ff0033" meeting="false" start="2025-03-22" duration="5" complete="100" expand="true"/>
+                </task>
+                <task id="56" uid="ae9c933bc9194a728ecf166d840ff78e" name="HU 3.2. Obtener productos de supermercados" color="#ff0033" meeting="false" start="2025-03-22" duration="2" complete="100" expand="true">
+                    <task id="62" uid="65317a5d551e428f88062d81381062cf" name="ACT 3.2.1. Crear endpoint para obtener productos de un supermercado" color="#ff0033" meeting="false" start="2025-03-22" duration="2" complete="100" expand="true"/>
+                    <task id="63" uid="6cc84617f5fd40219c4f458c1605beb3" name="ACT 3.2.2. Integrar la base de datos con el endpoint" color="#ff0033" meeting="false" start="2025-03-22" duration="1" complete="100" expand="true"/>
+                    <task id="64" uid="1b4a635b85644bdf880928ec77ae368e" name="ACT 3.2.3. Probar la funcionalidad con datos de prueba" color="#ff0033" meeting="false" start="2025-03-22" duration="2" complete="100" expand="true"/>
+                </task>
+                <task id="57" uid="b27d41aa7c1640d3a88d0cdbd60273ba" name="HU 3.3. Documentación de la API" color="#ff0033" meeting="false" start="2025-03-22" duration="2" complete="100" expand="true">
+                    <task id="65" uid="b21ca71f10294adca5a215b5232d6a06" name="ACT 3.3.1. Agregar documentación para cada endpoint" color="#ff0033" meeting="false" start="2025-03-22" duration="2" complete="100" expand="true"/>
+                    <task id="66" uid="188e42a22f3743bab24515c482c2f59d" name="ACT 3.3.2. Revisar la documentación con el equipo" color="#ff0033" meeting="false" start="2025-03-22" duration="1" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="75" uid="feffd0ba36244d1186e5fbdd3157c9a0" name="F7. Autenticación y seguridad" color="#339900" meeting="false" start="2025-03-22" duration="6" complete="100" expand="true">
+                <task id="81" uid="5d3cfddba27945b28a0a21c2a7a00450" name="HU 7.1. Registro e inicio de sesión" color="#339900" meeting="false" start="2025-03-22" duration="5" complete="100" expand="true">
+                    <task id="87" uid="1089ed8cf8ce43bbafc2f4c373e02ce8" name="ACT 7.1.1. Implementar endpoints de autenticación" color="#339900" meeting="false" start="2025-03-22" duration="3" complete="100" expand="true"/>
+                    <task id="88" uid="477f5843e5744dc89846ecc390f22ae2" name="ACT 7.1.2. Conectar la autenticación con la UI en Vaadin" color="#339900" meeting="false" start="2025-03-23" duration="4" complete="100" expand="true"/>
+                </task>
+                <task id="82" uid="da9c61a6a8224053b8e36feef0433597" name="HU 7.2. Autorización de acceso a funcionalidades" color="#339900" meeting="false" start="2025-03-25" duration="4" complete="100" expand="true">
+                    <task id="89" uid="2631f06b724d432f96eb8d31165a61c2" name="ACT 7.2.1. Implementar middleware de seguridad en el backend" color="#339900" meeting="false" start="2025-03-25" duration="4" complete="100" expand="true"/>
+                    <task id="90" uid="5d38e5e71ccd454c96154452eead8c62" name="ACT 7.2.2. Configurar protección en la UI para secciones privadas" color="#339900" meeting="false" start="2025-03-28" duration="2" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="12" uid="99ada0d0bbc24098a5c6f5f42a0ac561" name="Sprint Retrospective 3" color="#339900" meeting="true" start="2025-03-30" duration="0" complete="100" expand="true"/>
+        </task>
+        <task id="6" uid="796e29afa100422786d1623f6446f702" name="Sprint 4" color="#ffff00" meeting="false" start="2025-04-10" duration="13" complete="100" expand="true">
+            <notes><![CDATA[Diseño e implementación de las historias incluidas en el Sprint 4]]></notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <task id="76" uid="3d3b17a898544c3ab7eac28e0310102a" name="F9. Optimización de la ejecución" color="#ffff00" meeting="false" start="2025-04-10" duration="11" complete="100" expand="true">
+                <task id="93" uid="a566f5de288647b5863dc08a416d98a1" name="HU 9.1. Optimización del backend" color="#ffff00" meeting="false" start="2025-04-10" duration="9" complete="100" expand="true">
+                    <task id="101" uid="a3d097e59ecb4d5d81a4013766e3fc07" name="ACT 9.1.1. Mejorar consultas SQL y optimizar índices" color="#ffff00" meeting="false" start="2025-04-10" duration="9" complete="100" expand="true"/>
+                </task>
+                <task id="94" uid="f0ef66ed981849418141cb1e2f8add46" name="HU 9.2. Reducción del tiempo de carga en la UI" color="#ffff00" meeting="false" start="2025-04-13" duration="8" complete="100" expand="true">
+                    <task id="102" uid="33695918cedf43568cf95bf8544accc3" name="ACT 9.2.1. Comprimir archivos y optimizar imágenes" color="#ffff00" meeting="false" start="2025-04-13" duration="5" complete="100" expand="true"/>
+                    <task id="103" uid="d0609b66b71444068177672c47b6fa6c" name="ACT 9.2.2. Aplicar lazy loading para mejorar el rendimiento" color="#ffff00" meeting="false" start="2025-04-19" duration="4" complete="100" expand="true"/>
+                </task>
+            </task>
+            <task id="13" uid="2fcb1f3a94134bbf9499dd0e45ee1363" name="Sprint Retrospective 4" color="#ffff00" meeting="true" start="2025-04-27" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="7" uid="a4a3f9ac8a9f4730875b1db3b590667b" name="Preparación entrega final" color="#999999" meeting="false" start="2025-04-27" duration="20" complete="67" expand="true">
+            <notes><![CDATA[Memoria final.
+Código en GitHub con la App desplegada.]]></notes>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <task id="21" uid="475a2c4262914aad8599bc0f9c1e7f1c" name="Revisar historias de usuario" color="#999999" meeting="false" start="2025-04-27" duration="13" complete="100" expand="true">
+                <task id="20" uid="aeedcca3b64f40c3b50477b80ca507a6" name="F8. Testing y corrección de errores" color="#ffff00" meeting="false" start="2025-04-27" duration="11" complete="100" expand="true">
+                    <task id="91" uid="08b0e328bcb4449388aef2e9ae011ecb" name="HU 8.1. Testing del backend" color="#ffff00" meeting="false" start="2025-04-27" duration="4" complete="100" expand="true">
+                        <task id="97" uid="767bca96557a45acaeb5529aff93e6a8" name="ACT 8.1.1. Escribir tests para cada endpoint" color="#ffff00" meeting="false" start="2025-04-27" duration="2" complete="100" expand="true"/>
+                        <task id="98" uid="6f2f99bcf81340edb0fb2cd486d69942" name="ACT 8.1.2. Revisar logs y corregir errores" color="#ffff00" meeting="false" start="2025-05-01" duration="2" complete="100" expand="true"/>
+                    </task>
+                    <task id="92" uid="4d3163a928da43839f2460563021bae6" name="HU 8.2. Testing del frontend" color="#ffff00" meeting="false" start="2025-05-06" duration="5" complete="100" expand="true">
+                        <task id="99" uid="33b402a04c074188a7774ca87b1d9020" name="ACT 8.2.1. Implementar pruebas automatizadas en Vaadin" color="#ffff00" meeting="false" start="2025-05-06" duration="1" complete="100" expand="true"/>
+                        <task id="100" uid="f985c31af10d454bbf6bddd97f78e266" name="ACT 8.2.2. Recoger el feedback de usuarios y ajustar la UI" color="#ffff00" meeting="false" start="2025-05-08" duration="4" complete="100" expand="true"/>
+                    </task>
+                </task>
+                <task id="77" uid="32b28eb6e6f644aabf253e8f7a2d552c" name="F10. Despliegue con AzureDevOps y docker-compose" color="#ffff00" meeting="false" start="2025-05-08" duration="6" complete="100" expand="true">
+                    <task id="95" uid="b7bcd32e85bd40179abbd4cd6a20aab3" name="HU 10.1. Despliegue automático en Azure DevOps" color="#ffff00" meeting="false" start="2025-05-08" duration="4" complete="100" expand="true">
+                        <task id="104" uid="8658af231b084a5fa54bcef426aae7b5" name="ACT 10.1.1. Configurar el docker-compose con todas las dependencias necesarias" color="#ffff00" meeting="false" start="2025-05-08" duration="3" complete="100" expand="true"/>
+                        <task id="105" uid="40036c36f06f4a9aae5d155daf34dd50" name="ACT 10.1.2. Crear un pipeline en Azure DevOps para CI/CD" color="#ffff00" meeting="false" start="2025-05-11" duration="1" complete="100" expand="true"/>
+                        <task id="106" uid="ab807ecf9e5145918687ae1809d68a0d" name="ACT 10.1.3. Pedir la paralelización a Microsoft" color="#ffff00" meeting="false" start="2025-05-10" duration="1" complete="100" expand="true"/>
+                    </task>
+                    <task id="96" uid="535e0e6d19ae4aa981e8986be351c95b" name="HU 10.2. Configuración del entorno de producción" color="#ffff00" meeting="false" start="2025-05-09" duration="5" complete="100" expand="true">
+                        <task id="107" uid="92f3886f0a6d44fd872c71109715c496" name="ACT 10.2.1. Configurar variables de entorno de producción" color="#ffff00" meeting="false" start="2025-05-09" duration="2" complete="100" expand="true"/>
+                        <task id="108" uid="57f89e235c044eb4b10129814f22b6d4" name="ACT 10.2.2. Implementar herramientas de monitoreo y logging" color="#ffff00" meeting="false" start="2025-05-11" duration="3" complete="100" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="109" uid="f3635cf70e7d49259e6f9f53a3074b83" name="Comprobar el funcionamiento en remoto mediante docker" color="#999999" meeting="false" start="2025-05-13" duration="9" complete="0" expand="true"/>
+            <task id="14" uid="b8a1e218221442f49081dd34f211acd0" name="Entrega final" color="#999999" meeting="true" start="2025-05-15" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="22" uid="7f54f1106ef1498a91938f852a081b3b" name="Preparación presentación final" color="#999900" meeting="false" start="2025-05-25" duration="8" complete="0" expand="false">
+            <task id="110" uid="0383d36a19af486ba3cd6efa979dd4f1" name="Realización del PechaKucha" color="#999900" meeting="false" start="2025-05-25" duration="8" complete="0" expand="true">
+                <notes><![CDATA[Tendrá que contener la información más importante]]></notes>
+            </task>
+            <task id="24" uid="ca53254c7b1644268f730d493602362d" name="Ensayo" color="#999900" meeting="false" start="2025-05-25" duration="7" complete="0" expand="true"/>
+            <task id="23" uid="0c7e55f024ee49debe83a92a423b5902" name="Presentación final" color="#999900" meeting="true" start="2025-05-27" duration="0" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Eva Carrasco Fernández" function="SoftwareDevelopment:2" contacts="evacarrasco0403@gmail.com" phone="630971212">
+            <rate name="standard" value="15"/>
+        </resource>
+        <resource id="1" name="José Enrique Rodríguez Ceñas" function="SoftwareDevelopment:2" contacts="" phone="637960486">
+            <rate name="standard" value="15"/>
+        </resource>
+        <resource id="2" name="María Scarlatti Guerrero" function="SoftwareDevelopment:2" contacts="" phone="606273886">
+            <rate name="standard" value="15"/>
+        </resource>
+        <resource id="3" name="Miguel Esteban González" function="SoftwareDevelopment:2" contacts="" phone="644255819">
+            <rate name="standard" value="15"/>
+        </resource>
+        <resource id="4" name="Natalia Gálvez Moreno" function="SoftwareDevelopment:2" contacts="" phone="722377460">
+            <rate name="standard" value="15"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="110" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="72" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="102" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="105" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="68" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="86" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="82" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="103" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="98" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="93" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="96" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="67" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="101" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
