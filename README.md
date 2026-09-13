@@ -82,9 +82,3 @@ En Windows sustituye `./mvnw` por `mvnw.cmd`.
 
 - [Manual de usuario](docs/user-manual.pdf)
 - `docs/project-plan.gan`: planificación original en GanttProject.
-
-## Equipo
-
-Eva Carrasco Fernández · Miguel Esteban González · Natalia Gálvez Moreno · José Enrique Rodríguez Ceñas · María Scarlatti Guerrero
-
-La contribución de José Enrique Rodríguez Ceñas incluyó trabajo en la interfaz Vaadin, endpoints y operaciones CRUD del backend, comparación de precios y estructuras de datos para ofertas; también ejerció de Scrum Master en una de las iteraciones.
