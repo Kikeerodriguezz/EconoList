@@ -80,5 +80,5 @@ En Windows sustituye `./mvnw` por `mvnw.cmd`.
 
 ## Documentación
 
-- [Manual de usuario](docs/user-manual.pdf)
+- [Manual de usuario](docs/user-manual.pdf) .
 - `docs/project-plan.gan`: planificación original en GanttProject.
